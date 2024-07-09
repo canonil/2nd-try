@@ -1,4 +1,4 @@
-local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/canonil/test/56ff4ee895c8133e7c3cbc763fff35bfdcd482b7/first%20time"))()
+local Rayfield = loadstring(game:HttpGet("local loadstring(game:HttpGet("local loadstring(game:HttpGet("https://raw.githubusercontent.com/canonil/2nd-try/main/GUI")"))()
 
 local Window = Rayfield:CreateWindow({
   Name = "pls work",
@@ -25,7 +25,67 @@ local Slider = MainTab:CreateSlider({
   Suffix = "Speed",
   CurrentValue = 16,
   Flag = "Slider1"
-  Callback = function (Value)
+  Callback = function(Value)
+    game.Player.LocalPlayer.Humanoid.Walkspeed = (Value)
+  end,
+})")"))()
+
+local Window = Rayfield:CreateWindow({
+  Name = "pls work",
+  LoadingTitle = "💀",
+  LoadingSubtitle = "By canonil",
+  ConfugurationSaving = {
+    Enabled = true,
+    FolderName = nil,
+    FileName = "circle",
+  }
+})
+
+local MainTab = Window:CreateTab("bitch", nil)
+local MainSection = MainTab:CreateSection("main")
+
+local Button = MainTab:CreateButton({
+  Name = "speed",
+  Callback = function()
+    
+local Slider = MainTab:CreateSlider({
+  Name = "walk speed slider",
+  Range = {0, 300},
+  Increment = 1,
+  Suffix = "Speed",
+  CurrentValue = 16,
+  Flag = "Slider1"
+  Callback = function(Value)
+    game.Player.LocalPlayer.Humanoid.Walkspeed = (Value)
+  end,
+})"))()
+
+local Window = Rayfield:CreateWindow({
+  Name = "pls work",
+  LoadingTitle = "💀",
+  LoadingSubtitle = "By canonil",
+  ConfugurationSaving = {
+    Enabled = true,
+    FolderName = nil,
+    FileName = "circle",
+  }
+})
+
+local MainTab = Window:CreateTab("bitch", nil)
+local MainSection = MainTab:CreateSection("main")
+
+local Button = MainTab:CreateButton({
+  Name = "speed",
+  Callback = function()
+    
+local Slider = MainTab:CreateSlider({
+  Name = "walk speed slider",
+  Range = {0, 300},
+  Increment = 1,
+  Suffix = "Speed",
+  CurrentValue = 16,
+  Flag = "Slider1"
+  Callback = function(Value)
     game.Player.LocalPlayer.Humanoid.Walkspeed = (Value)
   end,
 })
