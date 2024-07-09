@@ -1,0 +1,10 @@
+local Window = Rayfield:CreateWindow({
+  Name = "pls work",
+  LoadingTitle = "💀",
+  LoadingSubtitle = "By canonil",
+  ConfugurationSaving = {
+    Enabled = true,
+    FolderName = nil,
+    FileName = "circle",
+  }
+})
